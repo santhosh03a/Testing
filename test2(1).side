@@ -1,0 +1,124 @@
+{
+  "id": "bbbe181c-9089-41b9-8ddc-0d5a39850645",
+  "version": "2.0",
+  "name": "test2",
+  "url": "https://sreeleathersonline.com",
+  "tests": [{
+    "id": "a5b755d0-be20-4aaa-8b53-b6c3bfcd3b10",
+    "name": "test2",
+    "commands": [{
+      "id": "8eca0af3-9130-468b-b567-9a10161a9950",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "97ebdb12-ca37-4ad4-9a60-1378d070d3e2",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "795x568",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "191411e8-4e5b-46d4-ba4b-9d1900e56b13",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.tt-search > .tt-dropdown-toggle",
+      "targets": [
+        ["css=.tt-search > .tt-dropdown-toggle", "css:finder"],
+        ["xpath=//div[@id='shopify-section-header-template']/header/div/div/div/div[3]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0165f57a-f7fb-4b41-b0c8-71a31e7b7f3f",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.tt-logo-container .tt-retina",
+      "targets": [
+        ["css=.tt-logo-container .tt-retina", "css:finder"],
+        ["xpath=//div[@id='shopify-section-header-template']/header/div/div/div/div[2]/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cef26e8f-9ee8-4240-9d54-c1e1b6459b6b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.dropdown:nth-child(8) span",
+      "targets": [
+        ["css=.dropdown:nth-child(8) span", "css:finder"],
+        ["xpath=//div[@id='shopify-section-header-template']/header/div[2]/div/div/div[2]/div/div/nav/ul/li[8]/a/span", "xpath:idRelative"],
+        ["xpath=//nav/ul/li[8]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Franchise Enquiry')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "eefcc7f4-c7c5-4622-a03e-bddf4cd78dd5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.dropdown:nth-child(8) span",
+      "targets": [
+        ["css=.dropdown:nth-child(8) span", "css:finder"],
+        ["xpath=//div[@id='shopify-section-header-template']/header/div[2]/div/div/div[2]/div/div/nav/ul/li[8]/a/span", "xpath:idRelative"],
+        ["xpath=//nav/ul/li[8]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Franchise Enquiry')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7cc47f92-a62f-4d71-85b9-cfd4052fe8ea",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.dropdown:nth-child(8) span",
+      "targets": [
+        ["css=.dropdown:nth-child(8) span", "css:finder"],
+        ["xpath=//div[@id='shopify-section-header-template']/header/div[2]/div/div/div[2]/div/div/nav/ul/li[8]/a/span", "xpath:idRelative"],
+        ["xpath=//nav/ul/li[8]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Franchise Enquiry')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "69c5e392-7ec7-454c-bd66-7261f6378e62",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.selected span",
+      "targets": [
+        ["css=.selected span", "css:finder"],
+        ["xpath=//div[@id='shopify-section-header-template']/header/div[2]/div/div/div[2]/div/div/nav/ul/li[8]/a/span", "xpath:idRelative"],
+        ["xpath=//nav/ul/li[8]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Franchise Enquiry')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "13ef30e2-cf7a-4304-8d26-03b4c96f0a90",
+      "comment": "",
+      "command": "click",
+      "target": "css=.selected span",
+      "targets": [
+        ["css=.selected span", "css:finder"],
+        ["xpath=//div[@id='shopify-section-header-template']/header/div[2]/div/div/div[2]/div/div/nav/ul/li[8]/a/span", "xpath:idRelative"],
+        ["xpath=//nav/ul/li[8]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Franchise Enquiry')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8efbb522-90f1-4114-8c57-496472691c94",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,536)",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "39ea7c24-ae37-44e7-ae06-a82042e83e0e",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["a5b755d0-be20-4aaa-8b53-b6c3bfcd3b10"]
+  }],
+  "urls": ["https://sreeleathersonline.com/"],
+  "plugins": []
+}

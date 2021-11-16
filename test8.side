@@ -1,0 +1,60 @@
+{
+  "id": "5224196d-1b07-4a57-8016-80ef1b1c00a7",
+  "version": "2.0",
+  "name": "test8",
+  "url": "https://sreeleathersonline.com",
+  "tests": [{
+    "id": "0dcf356d-5b09-4b55-89ac-16cfe670c7fc",
+    "name": "Untitled",
+    "commands": [{
+      "id": "d7d29ab7-be5d-4a1a-bf66-16691230b9a4",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fb9fe87e-79ce-4972-8956-73617e9f2e3c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x584",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5954acce-535d-47c4-bdb5-e5a2816c3f23",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,201)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bca4580a-e17c-4cf1-8263-f09f89c4ee85",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,2348.7666015625)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "79fcbb00-2ae4-454e-aef6-8f7cefd51a20",
+      "comment": "",
+      "command": "click",
+      "target": "css=#shopify-section-1597415462624 .text-center",
+      "targets": [
+        ["css=#shopify-section-1597415462624 .text-center", "css:finder"],
+        ["xpath=//div[@id='shopify-section-1597415462624']/div/div/div[3]", "xpath:idRelative"],
+        ["xpath=//div[4]/div[8]/div/div/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "06401d21-9bcc-40a2-b1a4-5ceab8a95791",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["0dcf356d-5b09-4b55-89ac-16cfe670c7fc"]
+  }],
+  "urls": ["https://sreeleathersonline.com/"],
+  "plugins": []
+}
